@@ -40,6 +40,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+npm-debug.log
+yarn-error.log
 
 # TypeScript v1 declaration files
 typings/
@@ -58,6 +60,12 @@ typings/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
+testem.log
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+/.angular
 
 # Optional REPL history
 .node_repl_history
@@ -102,3 +110,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Visual Studio Code
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
